@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "ServerGuard",
   "bot-account": {
-    "username": "imgonnacream",
-    "password": "",
+    "username": "ServerGuard",
+    "password": "huu",
     "type": "offline"
   },
   "server": {
-    "ip": "survivalworld-dRNF.aternos.me",
-    "port": 44019,
+    "ip": "npmc.playwithbao.com",
+    "port": 12329,
     "version": "",
     "try-creative": false
   },
@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "huu"
     },
     "anti-afk": {
       "enabled": true,
@@ -31,9 +31,9 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "I'm the Guard",
+        "Don't use Cheat or get banned!",
+        "I like to ban cheaters!"
       ]
     },
     "chat-log": true,
@@ -59,7 +59,7 @@
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 1000
     }
   },
   "modules": {
@@ -78,12 +78,12 @@
     "place-night": false
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1548694090743287829/fKeYcWzaBYAwz8PHjbfUWu_Io8nhAO68uaZPMz08iRANN5UvONs_B_pFhYwc9xXI02Ae",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
