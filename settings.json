@@ -29,7 +29,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 1200,
       "messages": [
         "I'm the Guard",
         "Don't use Cheat or get banned!",
